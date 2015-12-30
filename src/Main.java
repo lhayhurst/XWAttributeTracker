@@ -63,6 +63,9 @@ public class Main extends JFrame {
     private ArrayList<ScorePanel> scorePanels = new ArrayList<>();
 
     public Main(String title) {
+        if (title == null || title.length() == 0 ) {
+            title = "StackTracker";
+        }
         this.setTitle(title);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.addKeyListener(new NumberKeyListener(this));
@@ -104,7 +107,11 @@ public class Main extends JFrame {
 
             @Override
             public void run() {
-                create(args[0]);
+                String title = "XWing StatTracker";
+                if (args.length > 0 ) {
+                    title = args[0];
+                }
+                create(title);
             }
         });
     }
