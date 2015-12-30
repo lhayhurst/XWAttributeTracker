@@ -4,6 +4,12 @@ This is a simple java program that allows you to track attributes of ships in th
 
 This program is bundled as an executable jar file.  This program uses obscure keyboard events!
 
+# Download
+[Download the executable jar file](https://github.com/lhayhurst/XWAttributeTracker/raw/master/StatTracker.jar), double click on it, and off you go.
+
+
+
+
 # Manual
 
 Press the following keys on the keyboard to do stuff:
