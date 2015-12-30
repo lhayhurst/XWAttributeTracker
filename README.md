@@ -27,11 +27,11 @@ Press the following keys on the keyboard to do stuff:
 
 When the health of a pilot is zero, it will be grayed out:
 
-[grayed out]: https://c2.staticflickr.com/6/5790/23688572439_1ffa14b275_c.jpg
+![Image of Grayedout pilot list](https://c2.staticflickr.com/6/5790/23688572439_1ffa14b275_c.jpg)
 
 And when you change its hull, it'll come to life!
 
-[color]: https://c2.staticflickr.com/6/5708/24030336826_758e5d83df_c.jpg 
+![color](https://c2.staticflickr.com/6/5708/24030336826_758e5d83df_c.jpg)
 
 # Title
 
