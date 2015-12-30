@@ -58,7 +58,6 @@ class NumberKeyListener extends KeyAdapter {
 
 public class Main extends JFrame {
 
-    JScrollPane scrollPane;
     JPanel listContainer;
     private ArrayList<ScorePanel> scorePanels = new ArrayList<>();
 
@@ -115,7 +114,5 @@ public class Main extends JFrame {
             }
         });
     }
-
-
 }
 

@@ -2,15 +2,10 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-/**
- * @author Alvin Alexander, <a href="http://devdaily.com" title="http://devdaily.com">http://devdaily.com</a>
- *
- * A Java class to demonstrate how to create a
- * custom Java mouse cursor, in this case, a 
- * mouse cursor that shows the x/y coordinates of the
- * mouse as the mouse is moved over a Java/Swing application.
- *
+/* this helper class exists to help figure out the x/y position for the number trackers
+   cribbed from teh internets
  */
+
 public class MouseCursorXYLabel extends JFrame
 {
 
@@ -27,7 +22,6 @@ public class MouseCursorXYLabel extends JFrame
 
     static void displayJFrame()
     {
-        // create a jframe as usual
         JFrame jFrame = new JFrame();
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setTitle("Mouse Cursor with Label");
